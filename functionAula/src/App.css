@@ -1,0 +1,122 @@
+    body{
+        background-color: #A39EDF;
+    }
+
+   #root {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    
+    .conteiner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 500px;
+        height: 500px;
+    }
+    
+    #select {
+        appearance: none;
+        background-color: #C09EDF;
+        border: none;
+        padding: 0 1em 0 0;
+        margin: 0;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        font-family:  'Calculator', Arial, sans-serif;
+        font-size: 1.9em;
+        font-weight: bold;
+        cursor: inherit;
+        line-height: inherit;
+        color: #221E5C;
+        text-align: center;
+    }
+
+    
+    
+    .input {
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Calculator', Arial, sans-serif;
+        font-size: 1.9em;
+        background-color: #C09EDF;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    
+
+    .hide{
+        display: none;
+    }
+
+    .buttons{
+        display: flex;
+        height: 50px;
+        flex-direction: row;
+    }
+
+    #calcule{
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 1.2em;
+        text-align: center;
+        font-weight: bold;
+        font-family:  'Calculator', Arial, sans-serif;
+    }
+    
+    h1{
+       font-family: cursive
+    }
+
+    #res {
+        color: #221E5C;
+        font-size: 1.9em;
+        font-family: 'Calculator', Arial, sans-serif;
+    }
+    
+    .logo {
+        height: 6em;
+        padding: 1.5em;
+        will-change: filter;
+        transition: filter 300ms;
+    }
+    
+    .logo:hover {
+        filter: drop-shadow(0 0 2em #646cffaa);
+    }
+    
+    .logo.react:hover {
+        filter: drop-shadow(0 0 2em #61dafbaa);
+    }
+    
+    @keyframes logo-spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    @media (prefers-reduced-motion: no-preference) {
+        a:nth-of-type(2) .logo {
+            animation: logo-spin infinite 20s linear;
+        }
+    }
+    
+    .card {
+        padding: 2em;
+    }
+    
+    .read-the-docs {
+        color: #888;
+    }
